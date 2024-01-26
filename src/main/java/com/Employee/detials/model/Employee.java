@@ -4,11 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-
-
-//           checking weather it's updating or not                 //
-
-
 @Entity
 @Table(name="employee_info")
 public class Employee {
