@@ -41,6 +41,7 @@ public class EmployeeController {
 
     @GetMapping("/soreted")
     public List<Employee> getsorteddetails(){
+
         return employeeserviceimpl.getsorteddetails();
     }
 
